@@ -103,7 +103,6 @@ python-dateutil==2.8.1
 python-jsonrpc-server==0.3.4
 python-language-server==0.31.10
 pytz==2020.1
-pywin32==227
 pywin32-ctypes==0.2.0
 pywinpty==0.5.7
 PyYAML==5.3.1
@@ -116,7 +115,6 @@ rope==0.17.0
 rsa==4.0
 Rtree==0.9.4
 scikit-learn==0.23.1
-scipy @ file:///C:/ci/scipy_1592916958183/work
 seaborn==0.10.1
 Send2Trash==1.5.0
 six==1.15.0
@@ -148,6 +146,5 @@ Werkzeug==1.0.1
 win-inet-pton==1.1.0
 wincertstore==0.2
 wrapt==1.12.1
-xgboost==1.1.1
 xlrd==1.2.0
 zipp==3.1.0
