@@ -1,0 +1,104 @@
+html{
+        position: relative;
+        min-height: 100%;
+}
+
+body{
+margin: 0 0 100px;
+padding: 25px;
+}
+
+
+
+footer {
+background-color: black;
+position: absolute;
+left: 0;
+bottom: 0;
+height: 80px;
+width: 100%;
+overflow: hidden;
+animation-name: example;
+animation-duration: 10s;
+animation-iteration-count: 100;
+}
+@keyframes example {
+from {background-color: #cc00ff;}
+to {background-color: black;}
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 30px #ffff00, 0 0 40px #ffff00, 0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00;
+  }
+  to {
+    text-shadow: 0 0 20px #ffff00, 0 0 30px #ffff00, 0 0 40px #ffff00, 0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00, 0 0 80px #ffff00;
+  }
+}
+
+
+a{
+text-decoration: none !important;
+}
+
+a:hover{
+cursor: pointer;
+}
+
+.nav-link{
+font-size: 17px;
+}
+
+.card{
+border: 2px solid black;
+
+}
+
+.form-group .form-control{
+ border: 1px solid black;
+font-family:Times New Roman;
+font-style:italic;
+}
+.ss{
+border-radius:4px;
+background-color:rgba(0,0,0,0.5);
+box-shadow:5px 5px 5px black;
+
+}   
+h1{
+    font-family:Times New Roman;
+    font-style:italic;
+
+}
+body
+{
+background-image:url('background.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position: center center;
+}
+
+.btn-info
+{
+    background-color: #0099ff;
+}
+
+@media only screen and (max-width: 600px){
+    .sign__word{
+        text-align: center;
+        flex-basis: 100%;
+        padding-top: 100px;
+    }
+
+
+
+}
